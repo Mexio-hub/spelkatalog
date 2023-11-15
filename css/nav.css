@@ -1,0 +1,117 @@
+.navbar {
+
+    list-style-type: none;
+    margin:0;
+    margin-top:2vh;
+    padding:0;
+    padding-left:0.5vw;
+    padding-right:0.5vw;
+    text-align: center;
+    
+}
+
+
+.navbar li {
+    margin-top:1vh;
+    margin-bottom:1vh;
+    display:inline-block;
+
+}
+
+.navbar li a {
+    align-self:center;
+    text-decoration: none;
+    font-size:2vw;
+    color:white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius:20px;
+    cursor:pointer;
+    padding: 1vh 2vw 1vh 2vw;
+}
+
+nav {
+    background-color:rgb(121, 7, 228);
+    height:fit-content;
+    width:fit-content;
+    margin:auto;
+    border-radius:20px;
+}
+
+#active {
+    background-color:rgb(164, 93, 231);
+    border-radius:15px;
+}
+
+main {
+    min-height:100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin:0;
+    padding:0;
+    background-image:url("../images/lofi.png");
+    background-position-y: -550px;
+    background-position-x:center;
+    color:white;
+}
+
+footer {
+    background-color:rgba(137, 43, 226, 0.715);
+    margin:0px;
+    padding:5vh;
+    color:white;
+
+}
+
+.grid-container {
+    display:grid;
+    grid-template-columns: auto auto auto;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10vh;
+    height:fit-content;
+    width:fit-content;
+}
+
+.game-container {
+    margin-left:2vw;
+    margin-right:2vw;   
+    padding-right:auto;
+    padding-left:auto;
+    width:fit-content;
+    height:auto;
+    background-color:rgba(137, 43, 226, 0.5);
+    border:5px solid blueviolet;
+    border-radius:50px;
+}
+
+.game-container img {
+    width:20vw;
+    padding: 2vw;
+}
+
+.contact, a {
+    list-style-type: none;
+    text-decoration: none;
+    color:white;
+}
+
+.games, a {
+    list-style-type: none;
+    text-decoration: none;
+    color:white;
+}
+
+.footer-grid {
+    display:grid;
+    grid-template-columns: auto auto;
+    margin:auto;
+}
+
+.footer-grid ul {
+    margin-left:2vw;
+    margin-right:2vw;
+}
