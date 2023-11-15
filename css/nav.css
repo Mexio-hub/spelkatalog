@@ -115,3 +115,29 @@ footer {
     margin-left:2vw;
     margin-right:2vw;
 }
+
+.info {
+    margin-left:2vw;
+    margin-right:2vw;   
+    padding:2vw;
+    width:45vh;
+    height:auto;
+    background-color:rgba(137, 43, 226, 0.5);
+    border:5px solid blueviolet;
+    border-radius:50px;
+}
+
+header p {
+    font-size:5vw;
+    color: #FFFFFF;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+    color: #FFFFFF;
+    
+}
+
+header {
+    width:fit-content;
+    margin:auto;
+    text-align:center;
+    margin-top:0px;
+}
